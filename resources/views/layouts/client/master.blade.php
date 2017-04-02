@@ -11,7 +11,7 @@
 	<title>HUSAVI Template</title>
 	
 	<link rel="stylesheet" type="text/css" media="all" href="{{ URL::To('public/client/style.css') }}" />
-	<link rel="stylesheet" type="text/css" media="all" href="{{ URL::To('public/client/css/bootstrap.css') }}" />
+	<link rel="stylesheet" type="text/css" media="all" href="{{ URL::To('public/client/bootstrap.css') }}" />
 	<link rel="stylesheet" href="{{ URL::To('public/client/js/nivo-slider/nivo-slider.css') }}" type="text/css" media="screen" />
 	<link rel="stylesheet" media="all" type="text/css" href="{{ URL::To('public/client/js/prettyPhoto/css/prettyPhoto.css') }}" />
 

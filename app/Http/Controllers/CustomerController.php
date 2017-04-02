@@ -14,9 +14,9 @@ class CustomerController extends Controller
     }
     public function postShipping(Request $request) {
         $customer = new Customer();
-        $customer->customer_name = $request->customer_name;
-        $customer->customer_email = $request->customer_email;
-        $customer->customer_phone = $request->customer_phone;
+        $customer->name = $request->customer_name;
+        $customer->email = $request->customer_email;
+        $customer->phone = $request->customer_phone;
         $customer->address = $request->address;
 
         $customer->save();

@@ -6,7 +6,7 @@
             <div class="clearfix">
                 <form action=""></form>
                 <table class="table table-hover ">
-
+                    <h3>Giỏ Hàng</h3>
                     <thead>
                         <tr>
                             <th>Hình Ảnh</th>
