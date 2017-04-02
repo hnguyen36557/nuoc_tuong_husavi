@@ -1,0 +1,44 @@
+/*nav:not(.mm_menu){
+	display: none;
+}*/
+.nav_button{
+	text-align: center;
+}
+.nav_button{
+	background:#d8bf5b;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 40px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width:100%;
+	height:45px;
+	position:fixed;
+	top:0;
+	z-index:999;
+}
+.nav_button a{
+	display: block;
+	width: 28px;
+	height: 18px;
+	position: fixed;
+	top:13px;
+	left:10px;
+}
+.nav_button a:before,
+.nav_button a:after{
+	content: '';
+	display: block;
+	background: #fff;
+	height: 2px;
+}
+.nav_button a span{
+	background: #fff;
+	display: block;
+	height: 2px;
+	margin: 6px 0;
+}
+.content{
+	padding: 150px 50px 50px 50px;
+}

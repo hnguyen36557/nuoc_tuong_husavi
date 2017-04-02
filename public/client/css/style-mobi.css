@@ -1,0 +1,14 @@
+@media only screen and (max-width: 991px){
+.chia-padding{padding:0 15px;}
+.chia-padding:nth-child(2n+2) {padding: 0 15px;}
+.home-video-box h3{min-height:52px;}
+.home-saff-box{max-width:750px;}
+.head-logo{margin-top: 45px;}
+#section{padding-top:149px;}
+.right-testimo-box-content{margin-top:10px;}
+}
+@media only screen and (max-width: 768px){
+.footer-2-box p{text-align:center;}
+ul.socials-footer{text-align:center;}
+.home-saff-box{padding:0 15px;}
+}
